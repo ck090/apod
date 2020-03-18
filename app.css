@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: cornsilk;
+}
+
+#title {
+    font-family: 'Oswald';
+    display: flex;
+    justify-content: center;
+}
+
+#info {
+    font-family: 'Source Sans Pro';
+    font-size: 0.8rem;
+    color: rgb(240, 240, 217);
+    display: flex;
+    justify-content: center;
+}
+
+.frame-container {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-frame {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.date-frame {
+    margin-top: 1rem;
+    font-family: 'Source Sans Pro';
+    font-size: 0.8rem;
+    color: rgb(240, 240, 217);
+    width: 100%;
+}
+
+.url-frame {
+    font-family: 'Source Sans Pro';
+    font-size: 0.8rem;
+    color: rgb(240, 240, 217);
+    width: 100%;
+}
